@@ -1,0 +1,6 @@
+version: '3.3'
+services:
+    ocaml:
+        tty: true
+        container_name: ocaml-opam
+        image: ocaml-opam
